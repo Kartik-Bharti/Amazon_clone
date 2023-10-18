@@ -35,7 +35,7 @@ class _AuthScreenState extends State<AuthScreen> {
   @override
   void dispose() {
     super.dispose();
-    nameController.dispose();          
+    nameController.dispose();
     emailController.dispose();
     passwordController.dispose();
   }
