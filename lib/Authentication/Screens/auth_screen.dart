@@ -26,9 +26,9 @@ class _AuthScreenState extends State<AuthScreen> {
   void signupuser() {
     authService.signUpUser(
       context: context,
-      email: emailController.text.toString(),
-      name: nameController.text.toString(),
-      password: passwordController.text.toString(),
+      email: emailController.text.toString().trim(),
+      name: nameController.text.toString().trim(),
+      password: passwordController.text.toString().trim(),
     );
   }
 
